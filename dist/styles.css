@@ -1,0 +1,87 @@
+#main {
+    display: inline-block;
+}
+
+#right {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#buttons {
+    text-align: center;
+    width: 50px;
+}
+
+#cartoon {
+    margin-top: 20px;
+    text-align: center;
+    color: #8B0188;
+}
+
+#input {
+    text-align: center;
+    padding-top: 20px;
+}
+
+table {
+    border-spacing: 10px;
+    background: black;
+}
+
+td {
+    width: 70px;
+    height: 70px;
+    background: url("/images/water.jpg");
+}
+
+td img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70px;
+    max-height: 70px;
+}
+
+td.header {
+    background: #0B0B61;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+}
+
+td.header.active {
+    background: #2DAE4B;
+}
+
+td.header.active.excluded {
+    background: #2DAE4B;
+}
+
+td.header.excluded {
+    background: #636262;
+}
+
+#buttons img {
+    height: 50px;
+    width: 50px;
+}
+
+#buttons h1 {
+    color: green;
+}
+
+#buttons h1.error {
+    color: red;
+}
+
+#input input {
+    border: solid 2px green;
+    border-radius: 15px;
+    height: 28px;
+    width: 200px;
+    text-align: center;
+    font-family: Sansation, Arial;
+    font-size: 125%;
+}
