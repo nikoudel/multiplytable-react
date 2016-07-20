@@ -35,7 +35,7 @@ const Buttons = React.createClass({
           </div>
         )}
 
-        <img src={state.get('cartoon')} />
+        {state.has('cartoon') ? <img src={state.get('cartoon')} /> : null}
 
       </div>
     );
