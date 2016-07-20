@@ -84,4 +84,5 @@ td.header.excluded {
     text-align: center;
     font-family: Sansation, Arial;
     font-size: 125%;
+    outline: none;
 }
